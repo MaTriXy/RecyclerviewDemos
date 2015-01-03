@@ -10,10 +10,9 @@ I will try and use both new API and build on top of available Solutions.
 
 ##Contribution
 1. Fork
-2. Add your own live templates
-3. Send me a pull request
-4. Wait
-5. Profit
+2. Send me a pull request
+3. Wait
+4. Profit
 
 
 ## License
