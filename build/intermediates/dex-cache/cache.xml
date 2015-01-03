@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/GitHub/RecyclerviewDemos/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/GitHub/RecyclerviewDemos/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-afb65f63afe9554665a9b8f357625b18adbda232.jar" />
+    </item>
+    <item
+        jar="/GitHub/RecyclerviewDemos/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/GitHub/RecyclerviewDemos/app/build/intermediates/pre-dexed/debug/classes-9c8a74f82f82c83e13184037cd45be852f95b4f1.jar" />
+    </item>
+    <item
+        jar="/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/GitHub/RecyclerviewDemos/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-e06d8ae1ad2d51884e9aa8ebe4eb3e9a40e567ae.jar" />
+    </item>
+    <item
+        jar="/GitHub/RecyclerviewDemos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/GitHub/RecyclerviewDemos/app/build/intermediates/pre-dexed/debug/classes-8b0131c2fb5ea95017c9942f2f6dfd5bb45467c2.jar" />
+    </item>
+    <item
+        jar="/GitHub/RecyclerviewDemos/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/GitHub/RecyclerviewDemos/app/build/intermediates/pre-dexed/debug/classes-06dd389ab14f07ed3dab7de9159b16b3fa197317.jar" />
+    </item>
+    <item
+        jar="/GitHub/RecyclerviewDemos/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/GitHub/RecyclerviewDemos/app/build/intermediates/pre-dexed/debug/classes-f8ee2619473df604f3f84870a7f8cbfb26c90fd1.jar" />
+    </item>
+
+</items>

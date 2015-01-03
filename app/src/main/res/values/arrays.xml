@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="animators">
+        <item>Slide left</item>
+        <item>Slide right</item>
+        <item>Slide top</item>
+        <item>Slide bottom</item>
+    </string-array>
+
+
+</resources>
