@@ -7,8 +7,6 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Spinner;
 
 import java.util.ArrayList;
 
@@ -17,7 +15,6 @@ public class StaggeredGridLayoutManagerActivity extends ActionBarActivity {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
-    private Spinner mSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +28,6 @@ public class StaggeredGridLayoutManagerActivity extends ActionBarActivity {
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        mSpinner = (Spinner) findViewById(R.id.spinnerAnimations);
-        mSpinner.setVisibility(View.VISIBLE);
 
         String[] myDataset = {" One", " Two", " Three", " Four", " Five", " Six", " Seven", " Eight", " Nine",
                 "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen",
@@ -78,7 +73,6 @@ public class StaggeredGridLayoutManagerActivity extends ActionBarActivity {
         ((MyAdapter) mAdapter).mCardLayout = true;
         ((MyAdapter) mAdapter).setmFirstLayout(R.layout.item_view_staggered);
         mRecyclerView.setAdapter(mAdapter);
-        ((MyAdapter) mAdapter).setupSpinner(mSpinner, mRecyclerView, this);
 
     }
 
@@ -119,7 +113,6 @@ public class StaggeredGridLayoutManagerActivity extends ActionBarActivity {
 
         switch (item.getItemId()) {
             case android.R.id.home:
-                mSpinner.setVisibility(View.GONE);
                 finish();
                 break;
             case R.id.action_add:

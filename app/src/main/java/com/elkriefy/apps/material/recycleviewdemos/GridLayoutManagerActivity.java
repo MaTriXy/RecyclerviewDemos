@@ -7,8 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Spinner;
 
 import java.util.ArrayList;
 
@@ -17,7 +15,6 @@ public class GridLayoutManagerActivity extends ActionBarActivity {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
-    private Spinner mSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +35,6 @@ public class GridLayoutManagerActivity extends ActionBarActivity {
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        mSpinner = (Spinner) findViewById(R.id.spinnerAnimations);
-        mSpinner.setVisibility(View.VISIBLE);
 
         String[] myDataset = {" One", " Two", " Three", " Four", " Five", " Six", " Seven", " Eight", " Nine"};
         ArrayList<Integer> myImages = new ArrayList<>();
@@ -61,7 +56,6 @@ public class GridLayoutManagerActivity extends ActionBarActivity {
         ((MyAdapter) mAdapter).setmFirstLayout(R.layout.item_view_grid_vertical);
         ((MyAdapter) mAdapter).setmAlternateLayout(R.layout.item_view_grid_horizontal);
         mRecyclerView.setAdapter(mAdapter);
-        ((MyAdapter) mAdapter).setupSpinner(mSpinner, mRecyclerView, this);
 
     }
 
@@ -92,7 +86,6 @@ public class GridLayoutManagerActivity extends ActionBarActivity {
         int pos;
         switch (item.getItemId()) {
             case android.R.id.home:
-                mSpinner.setVisibility(View.GONE);
                 finish();
                 break;
             case R.id.action_add:
